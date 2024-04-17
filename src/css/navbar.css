@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #add8e6; /* Light blue background */
+    overflow: hidden;
+}
+
+.navbar-left {
+    float: left;
+}
+
+.navbar-right {
+    float: right;
+}
+
+.navbar-link-title {
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 24px; /* Larger font size */
+    color: black; /* Black text color */
+}
+
+.navbar-link {
+    display: inline-block;
+    padding: 24px;
+    text-decoration: none;
+    font-size: 18px; /* Larger font size */
+    color: black; /* Black text color */
+}

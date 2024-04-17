@@ -1,0 +1,14 @@
+# Image Assembly
+FROM python:3.8
+RUN pip install numpy==1.24.4 flask==3.0.0 waitress==3.0.0 gensim==4.3.2 scipy==1.10.0
+
+# Image Configuration
+# COPY ./src/models/recommendation_models.py /app/models/
+COPY ./src/models/ /app/models/
+WORKDIR /app
+
+# Communication Configuration
+EXPOSE 5000
+CMD ["python3", "./models/recommendation_models.py"]
+# CMD ["python3", "-m" , "flask", "run", "--host=0.0.0.0"]
+# CMD ["gunicorn", "-w", "4", "-b", "0.0.0.0:5000", "models.app:app"]

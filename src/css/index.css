@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    width: 80%; /* Adjust the width as needed */
+    max-width: 200px; /* Set maximum width if necessary */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+select {
+    padding: 10px;
+    width: 50%;
+    max-width: 150px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-appearance: none; /* Remove default arrow */
+    -moz-appearance: none;
+    appearance: none;
+    background-color: white; /* Reset background color */
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.login-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.login-btn:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+
+table {
+    border-collapse: collapse;
+    width: 50%; /* Adjust the width as needed */
+    margin: auto; /* Center the table on the page */
+}
+
+th {
+    border: 1px solid #dddddd;
+    text-align: auto;
+    padding: 6px; /* Adjust the padding as needed */
+}
+
+td {
+    border: 1px solid #dddddd;
+    text-align: auto;
+    padding: 2px; /* Adjust the padding as needed */
+}
