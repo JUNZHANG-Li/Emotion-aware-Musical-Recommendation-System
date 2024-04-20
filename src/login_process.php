@@ -26,6 +26,10 @@ if (isset($_POST['submit'])) {
         // Verify password
         if (password_verify($password, $hashed_password)) {
             // Password is correct, redirect to dashboard or homepage
+            $redis = new Redis();
+            $redis->connect('redis', 6379);
+            ini_set('session.save_handler', 'redis');
+            ini_set('session.save_path', 'tcp://redis:6379');
             session_start();
             $_SESSION['username'] = $username;
             header('Location: index.php');

@@ -5,6 +5,10 @@ RUN docker-php-ext-install mysqli \
     && docker-php-ext-enable mysqli \
     && apachectl restart
 
+# Install Redis extension
+RUN pecl install redis \
+    && docker-php-ext-enable redis
+
 # # Install required dependencies
 # RUN apt-get update && apt-get install -y \
 #     unzip \

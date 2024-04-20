@@ -59,7 +59,7 @@ def wordnet():
     path = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
     index_data = np.load(os.path.join(path, 'models/lyrics_vector_index.npy'))
     emo_data = np.load(os.path.join(path, 'models/emotion_indices_set.npz'))
-    vector_data = np.load(os.path.join(path, 'models/sparse_vector_lst.npz'))
+    vector_data = np.load(os.path.join(path, 'models/lyrics_vector_lst.npz'))
     vector_data = csr_matrix((vector_data['data'], vector_data['indices'], vector_data['indptr']), shape=vector_data['shape']).toarray()
     loadT = time()
 

@@ -52,6 +52,11 @@ services:
     depends_on:
       - db
 
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
+
   nginx:
     image: nginx:latest
     volumes:
