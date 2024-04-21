@@ -76,9 +76,8 @@ function directNavigation() {
 function showErrorMessage($message) {
     echo "
         <script>
-        if(confirm('$message')) {
+            window.alert('$message');
             window.location = 'index.php';
-        }
         </script>
     ";
 }
