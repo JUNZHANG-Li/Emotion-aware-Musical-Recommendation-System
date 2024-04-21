@@ -16,8 +16,6 @@ CREATE TABLE `song_recommendation_database`.`songs` (
     PRIMARY KEY (`id`)
 ) ENGINE = InnoDB;
 
-INSERT INTO `song_recommendation_database`.`users` (`username`, `email`, `password`, `role`) VALUES ('a', '1463855272@qq.com', '$2y$10$z7nXkEABKtjHbjvFG3TDo.qj7M9jw0CzWRuHC8xyvztg1FbYnblXC', 2);
-
-CREATE USER 'movieadmin' IDENTIFIED BY 'secretpassword';
-GRANT INSERT, SELECT ON `song_recommendation_database`.* TO 'movieadmin' WITH GRANT OPTION;
-GRANT SUPER ON *.* TO 'movieadmin';
+CREATE USER 'admin' IDENTIFIED BY 'secretpassword';
+GRANT INSERT, SELECT ON `song_recommendation_database`.* TO 'admin' WITH GRANT OPTION;
+GRANT SUPER ON *.* TO 'admin';
