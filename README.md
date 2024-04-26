@@ -6,7 +6,7 @@
 ## Start the web application:
 1. Open the terminal and run `docker compose up` to configure the runtime environment and launch the web application.
 2. Wait for the application configuration to complete. You'll see a message like `[System] [MY-XXXXXX] [Server] /usr/sbin/mysqld: ready for connections. Version: 'X.X.X'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL`.
-3. Open the browser and go to [http://localhost:4000/](http://localhost:4000/) to get started. Upon initial login to the application web page, the song information will be written into the database.
+3. Open the browser and go to [http://localhost:4000/](http://localhost:4000/) to get started. Upon initial login to the application web page, the song information stored locally will be written into the database.
 
 
 ## To manage the database:
