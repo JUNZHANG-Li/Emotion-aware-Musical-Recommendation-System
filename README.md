@@ -2,7 +2,7 @@
 
 <br>
 
-### _"Unlock Your Soundtrack: Where Lyrics, Genres, and AI Unite for Your prefect Groove."_
+### _"Unlock Your Soundtrack: Where Lyrics, Genres, and AI Unite for Your Prefect Groove."_
 
 <br>
 
