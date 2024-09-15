@@ -1,4 +1,4 @@
-# 🎵 Emotional-aware Musical Recommendation System
+# 🎵 Emotion-aware Musical Recommendation System
 
 <br>
 
